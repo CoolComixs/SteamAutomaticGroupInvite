@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Steam Automatic Group Invite
 // @namespace    https://github.com/CoolComixs/SteamAutomaticGroupInvite
-// @version      1.0.2
+// @version      2.0.1
 // @description  This script do it easy for you, when you like to invite some people to your Steam group.
-// @author       ComixsYT, Originaly by Michael
+// @author       Mitchell Reiff/ComixsYT, Originaly by Michael Andreasen
 // @match        *://steamcommunity.com/id/*
 // @match        *://steamcommunity.com/profiles/*
 // @require      http://code.jquery.com/jquery-2.1.4.min.js
@@ -12,11 +12,11 @@
 // @grant        none
 // ==/UserScript==
 
-//I (ComixsYT/Mitchell Reiff) nor doe steh original author (mandreasen/Michael Andreasen) take responsibiloty
+//I (ComixsYT/Mitchell Reiff) nor dose the original author (mandreasen/Michael Andreasen) take responsibiloty
 //if you violate the Steam TOS. You have been warned!
 
-//Set the group custom URL you want people to be invited to. (NOT THE FULL URL ONLY CUSTOM URL)
-//For example, if your group URL is http://steamcommunity.com/groups/tradingllc, enter tradingllc in ""!
+//Set the custom URL of the group you want peoplen to be invited to! Do not put the entire URL.
+//For example, if your group URL is http://steamcommunity.com/groups/tradingllc, enter tradingllc in "", replacing customURL!
 
 var steam_group_custom_url = "customURL";
 
