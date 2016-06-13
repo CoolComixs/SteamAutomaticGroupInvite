@@ -5,6 +5,9 @@ This script autoaticlay invites members to your steam group when you load their 
 
 You only need to set the steam_group_custom_url variable with your Steam group custom URL.
 
+## Caution ##
+**The use of this script may violate steam's TOS. You have been warned!**
+
 ## Installation ##
 **It is recommended to use either [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Chrome) or [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) (Firefox).** This allows the script to auto-update to the most recent version. The rate of this update can be changed in each extension's preferences.
 
