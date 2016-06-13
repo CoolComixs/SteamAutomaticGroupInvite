@@ -12,8 +12,12 @@
 // @grant        none
 // ==/UserScript==
 
-// Set the group custom URL you want people to be invited to. (NOT THE FULL URL ONLY CUSTOM URL)
+//I (ComixsYT/Mitchell Reiff) nor doe steh original author (mandreasen/Michael Andreasen) take responsibiloty
+//if you violate the Steam TOS. You have been warned!
+
+//Set the group custom URL you want people to be invited to. (NOT THE FULL URL ONLY CUSTOM URL)
 //For example, if your group URL is http://steamcommunity.com/groups/tradingllc, enter tradingllc in ""!
+
 var steam_group_custom_url = "customURL";
 
 function InviteUserToSteamGroup(group_id)
@@ -34,9 +38,9 @@ function InviteUserToSteamGroup(group_id)
 		dataType: 'json'
 	}).done(function(data) {
 		if (data.duplicate) {
-			console.log('[' + g_rgProfileData.steamid + '] The user are already in the group or have already received invites.');
+			console.log('[' + g_rgProfileData.steamid + '] The user are already in your group or have already received an invite.');
 		} else {
-			console.log('[' + g_rgProfileData.steamid + '] Invite to Join Your Group.');
+			console.log('[' + g_rgProfileData.steamid + '] Invite user to join your Group.');
 		}
 	}).fail(function() {
 		console.log('Error processing your request. Please try again.');
@@ -54,7 +58,7 @@ function GetGroupData(steam_group_custom_url)
 	}).done(function(xml) {
 		InviteUserToSteamGroup($(xml).find('groupID64').text());
 	}).fail(function() {
-		console.log('The request failed or the group custom URL is wrong.');
+		console.log('The request failed or the group custom URL is incorrect.');
 	});
 }
 
