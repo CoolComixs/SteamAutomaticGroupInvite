@@ -1,18 +1,19 @@
 // ==UserScript==
 // @name         Steam Automatic Group Invite
-// @namespace    www.mandreasen.com
-// @version      1.0.1
+// @namespace    https://github.com/CoolComixs/SteamAutomaticGroupInvite
+// @version      1.0.2
 // @description  This script do it easy for you, when you like to invite some people to your Steam group.
-// @author       Michael
+// @author       ComixsYT, Originaly by Michael
 // @match        *://steamcommunity.com/id/*
 // @match        *://steamcommunity.com/profiles/*
 // @require      http://code.jquery.com/jquery-2.1.4.min.js
-// @downloadURL  https://raw.githubusercontent.com/mandreasen/SteamAutomaticGroupInvite/master/autoInvite.user.js
-// @updateURL    https://raw.githubusercontent.com/mandreasen/SteamAutomaticGroupInvite/master/autoInvite.user.js
+// @downloadURL  https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js
+// @updateURL    https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js
 // @grant        none
 // ==/UserScript==
 
 // Set the group custom URL you want people to be invited to. (NOT THE FULL URL ONLY CUSTOM URL)
+//For example, if your group URL is http://steamcommunity.com/groups/tradingllc, enter tradingllc in ""!
 var steam_group_custom_url = "customURL";
 
 function InviteUserToSteamGroup(group_id)
@@ -27,6 +28,7 @@ function InviteUserToSteamGroup(group_id)
 
 	$.ajax({
 		url: isHttps() + '://steamcommunity.com/actions/GroupInvite',
+		url: 'http://steamcommunity.com/actions/GroupInvite',
 		data: params,
 		type: 'POST',
 		dataType: 'json'
@@ -45,6 +47,7 @@ function GetGroupData(steam_group_custom_url)
 {
 	return $.ajax({
 		url: isHttps() + '://steamcommunity.com/groups/' + steam_group_custom_url + '/memberslistxml',
+		url: 'http://steamcommunity.com/groups/' + steam_group_custom_url + '/memberslistxml',
 		data: { xml:1 },
 		type: 'GET',
 		dataType: 'xml'
