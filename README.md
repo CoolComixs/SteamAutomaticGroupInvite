@@ -1,7 +1,7 @@
 # Steam Automatic Group Invite
 
-ORIGINALY BY Michael Andreasen - https://github.com/mandreasen
-This script autoaticlay invites members to your steam group when you load their profiles!
+ORIGINALLY BY Michael Andreasen - https://github.com/mandreasen
+This script automatically invites members to your steam group when you load their profiles!
 
 You only need to set the steam_group_custom_url variable with your Steam group custom URL.
 
@@ -24,4 +24,4 @@ You only need to set the steam_group_custom_url variable with your Steam group c
 4. Drag & drop the script file onto the Firefox window.
 5. Press `Install`.
 
-*NOTE: I don't take responsibility whatsoever for any breach of the Steam Community rules. If the script break any rules.*
+*NOTE: I don't take responsibility whatsoever for any breach of the Steam Community rules. If the script breaks any rules.*
