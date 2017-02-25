@@ -13,12 +13,12 @@ You only need to set the steam_group_custom_url variable with your Steam group c
 
 ### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) ###
 
-1. Navigate to `https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js` or click [here](https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js).
+1. Navigate to `https://raw.githubusercontent.com/MAPReiff/SteamAutomaticGroupInvite/master/autoInvite.user.js` or click [here](https://raw.githubusercontent.com/MAPReiff/SteamAutomaticGroupInvite/master/autoInvite.user.js).
 2. When the editor has loaded, click `Install` (*NOT* `Process with Chrome`).
 
 ### [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) ###
 
-1. Navigate to `https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js` or click [here](https://raw.githubusercontent.com/CoolComixs/SteamAutomaticGroupInvite/master/autoInvite.user.js).
+1. Navigate to `https://raw.githubusercontent.com/MAPReiff/SteamAutomaticGroupInvite/master/autoInvite.user.js` or click [here](https://raw.githubusercontent.com/MAPReiff/SteamAutomaticGroupInvite/master/autoInvite.user.js).
 2. Right click on the page, and click `Save Page As`.
 3. While Firefox is still open, open a File Manager of any sort, and navigate to the directory you saved the script.
 4. Drag & drop the script file onto the Firefox window.
